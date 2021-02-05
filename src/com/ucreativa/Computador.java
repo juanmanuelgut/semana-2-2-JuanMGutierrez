@@ -64,7 +64,7 @@ public class Computador {
 	@Override
 	public String toString() {
 		
-		return "Computador: Marca: " + this.Marca + " Sistema operativo: " + this.sistemaOperativo;
+		return "Computador: Marca: " + this.Marca + " Sistema operativo: " + this.sistemaOperativo + " esta encendida: " + Boolean.toString(this.encendido);
 		
 	}
 	
@@ -80,6 +80,8 @@ public class Computador {
 	}
 	
 	public void reiniciar() {
+		
+		
 		
 	}
 

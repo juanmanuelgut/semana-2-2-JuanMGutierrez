@@ -29,6 +29,7 @@ public class Main {
 		
 		//Instancia Computador
 		Computador macBook = new Computador("Apple", "MacOS 10.5.7", "XXXXXXXXX", false);
+		macBook.encender();
 		System.out.println("Instancia 1");
 		System.out.println(macBook.toString());
 		
