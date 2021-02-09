@@ -22,6 +22,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		//Instancia Perro
 		Perro perro1= new Perro("Firulais","Negro", 100);
 		System.out.println("Instancia 1");
@@ -32,6 +33,8 @@ public class Main {
 		macBook.encender();
 		System.out.println("Instancia 1");
 		System.out.println(macBook.toString());
+		
+		Impresora epson = new Impresora("epson",0,false,false,false);
 		
 		
 	}
