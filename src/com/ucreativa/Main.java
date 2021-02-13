@@ -35,6 +35,14 @@ public class Main {
 		System.out.println(macBook.toString());
 		
 		Impresora epson = new Impresora("epson",0,false,false,false);
+		epson.empezarImpresion();
+		epson.anadirTrabajoEnCola(9);
+		System.out.println(epson.toString());
+	
+		Televisor sony = new Televisor("Sony", 7, true, "Cable", false);
+		sony.encender();
+		sony.cambiarCanal(9);
+		System.out.println(sony.toString());
 		
 		
 	}

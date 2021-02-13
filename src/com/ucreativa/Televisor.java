@@ -94,5 +94,12 @@ public class Televisor {
 		
 		
 	}
+	
+	@Override
+	public String toString() {
+		
+		return "Televisor: Marca: " + this.marca + " Canal Actual: " + this.canalActual + " esta encendida: " + Boolean.toString(this.encendido);
+		
+	}
 
 }
